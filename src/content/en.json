@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "links": ["About", "Services", "Courses", "Reviews", "Contact"],
+    "cta": "Register"
+  },
+
+  "hero": {
+    "tag":           "Welcome to Orange Fahrschule",
+    "h1":            "Learn to Drive with Confidence",
+    "p":             "Modern driver training, professional instructors and multilingual support.",
+    "btn_primary":   "Register Now",
+    "btn_secondary": "Explore Courses"
+  },
+
+  "about": {
+    "label": "About Us",
+    "h2":    "Your trusted driving school in the city",
+    "p1":    "Orange Fahrschule stands for modern, professional and multilingual driver training. For over 15 years we have guided our students to their driving licence.",
+    "p2":    "Our instructors speak German, English and Arabic so you can learn comfortably in your own language.",
+    "badge": "Years of Experience"
+  },
+
+  "stats": [
+    { "value": "15+",  "label": "Years of Experience"        },
+    { "value": "500+", "label": "Successful Students per Year"},
+    { "value": "98%",  "label": "Pass Rate"                  }
+  ],
+
+  "features": {
+    "label": "Our Services",
+    "h2":    "Everything you need to pass your test",
+    "p":     "From theory to practice – we offer comprehensive driver training.",
+    "items": [
+      {
+        "title": "Flexible Scheduling",
+        "body":  "Driving lessons on your schedule – mornings, evenings or weekends."
+      },
+      {
+        "title": "Intensive Course",
+        "body":  "Get your licence fast – our intensive course is perfect for those who want to reach their goal quickly."
+      },
+      {
+        "title": "Multilingual Lessons",
+        "body":  "Theory lessons in German, English and Arabic."
+      },
+      {
+        "title": "Experienced Instructors",
+        "body":  "Certified instructors guide you with patience and expertise."
+      },
+      {
+        "title": "Modern Vehicles",
+        "body":  "Learn in current, well-maintained vehicles with the latest safety features."
+      },
+      {
+        "title": "Exam Preparation",
+        "body":  "Theory and practical exam made easy – with thorough preparation and personal feedback."
+      }
+    ]
+  },
+
+  "courses": {
+    "label": "Our Courses",
+    "h2":    "Licence Classes & Courses",
+    "items": [
+      {
+        "badge": "Most Popular",
+        "title": "Class B – Car Licence",
+        "body":  "The classic licence for passenger cars. Our programme takes you safely through theory and practice.",
+        "meta":  ["From 4–6 months", "14 mandatory lessons"],
+        "cta":   "Book Now"
+      },
+      {
+        "badge": "Relaxed Driving",
+        "title": "Automatic Licence",
+        "body":  "Ideal entry without a clutch – especially suited for students who want to learn in a relaxed way.",
+        "meta":  ["From 3–5 months", "Modern vehicle"],
+        "cta":   "Book Now"
+      },
+      {
+        "badge": "Fast Track",
+        "title": "Intensive Course",
+        "body":  "For those who need their licence quickly. Condensed programme in just a few weeks.",
+        "meta":  ["2–4 weeks", "Daily lessons"],
+        "cta":   "Book Now"
+      },
+      {
+        "badge": "Exam Prep",
+        "title": "Theory Lessons",
+        "body":  "Structured theory classes in small groups in German, English or Arabic.",
+        "meta":  ["Flexible times", "3 languages"],
+        "cta":   "Book Now"
+      }
+    ]
+  },
+
+  "testimonials": {
+    "label": "Reviews",
+    "h2":    "What our students say",
+    "items": [
+      {
+        "text": "I passed my driving test first time! The team is super professional and the multilingual support helped me a lot.",
+        "name": "Layla M.",
+        "meta": "Class B · April 2024"
+      },
+      {
+        "text": "Fantastic driving school! My instructor was patient and professional. I completed the intensive course in just 3 weeks.",
+        "name": "Tom K.",
+        "meta": "Intensive Course · March 2024"
+      },
+      {
+        "text": "The flexible times were a huge help as a working professional. Great instructors!",
+        "name": "Maria R.",
+        "meta": "Automatic · January 2024"
+      }
+    ]
+  },
+
+  "contact": {
+    "label": "Contact",
+    "h2":    "Ready to get started?",
+    "intro": "Fill in the form or give us a call – we will get back to you as soon as possible.",
+    "fields": {
+      "name":    "Full Name",
+      "phone":   "Phone Number",
+      "email":   "Email Address",
+      "course":  "Preferred Course",
+      "message": "Your Message"
+    },
+    "btn": "Send Message",
+    "info": {
+      "address": { "label": "Address", "value": "Musterstraße 42, 10115 Berlin" },
+      "phone":   { "label": "Phone",   "value": "+49 (0)30 123 456 78"          },
+      "email":   { "label": "Email",   "value": "info@orange-fahrschule.de"     }
+    }
+  },
+
+  "footer": {
+    "tagline":   "Your trusted driving school – with heart and over 15 years of experience.",
+    "copyright": "© 2024 Orange Fahrschule. All rights reserved.",
+    "cols": {
+      "nav":     { "title": "Navigation" },
+      "courses": { "title": "Courses"    },
+      "legal":   { "title": "Legal",
+                   "links": ["Imprint", "Privacy Policy", "Terms"] }
+    }
+  }
+}
