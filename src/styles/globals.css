@@ -1,0 +1,136 @@
+/* ═══════════════════════════════════════
+   استيراد (Import) الخطوط
+════════════════════════════════════════ */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* ═══════════════════════════════════════
+   خط Arslan Wessam للعربي
+   (مو موجود على Google — نحمله مباشرة)
+════════════════════════════════════════ */
+@font-face {
+  font-family: 'Arslan Wessam';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap; /* يعرض خط بديل ريثما يحمّل */
+  src:
+    url('https://db.onlinewebfonts.com/t/6cdf6337aff10e3528f6dc6f79fcc7e7.woff2') format('woff2'),
+    url('https://db.onlinewebfonts.com/t/6cdf6337aff10e3528f6dc6f79fcc7e7.woff')  format('woff');
+}
+
+/* ═══════════════════════════════════════
+   Tailwind — الطبقات الأساسية
+════════════════════════════════════════ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════
+   متغيرات CSS (CSS Variables)
+   هذي هي "الثيم الافتراضي" للمنصة
+   كل مدرسة رح تغيّر هالقيم لحالها
+════════════════════════════════════════ */
+:root {
+
+  /* ── الألوان الأساسية (Colors) ── */
+  --color-primary:      #E8641A;   /* البرتقالي — لون المدرسة الرئيسي */
+  --color-primary-dark: #C4510E;   /* أغمق شوي — للـ hover */
+  --color-primary-soft: #FFF5EF;   /* فاتح جداً — للخلفيات الخفيفة */
+
+  /* ── الألوان المحايدة (Neutral Colors) ── */
+  --color-dark:   #1A1410;   /* شبه أسود — للعناوين */
+  --color-mid:    #6B6560;   /* رمادي — للنصوص الثانوية */
+  --color-light:  #F8F7F4;   /* كريمي فاتح — لخلفية الصفحة */
+  --color-white:  #FFFFFF;
+  --color-border: #E8E5E0;   /* لون الحدود (borders) */
+
+  /* ── الخطوط (Fonts) ── */
+  --font-body:    'IBM Plex Sans', system-ui, sans-serif;  /* نصوص عادية */
+  --font-display: 'IBM Plex Sans', system-ui, sans-serif;  /* عناوين */
+  --font-arabic:  'Arslan Wessam', 'Segoe UI', Tahoma, sans-serif;
+
+  /* ── الحواف المدورة (Border Radius) ── */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  /* ── الظلال (Shadows) ── */
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.12);
+
+  /* ── المسافات الداخلية للأقسام (Section Spacing) ── */
+  --section-py: 5rem;   /* padding عمودي لكل section */
+
+}
+
+/* ═══════════════════════════════════════
+   إعدادات أساسية (Base Styles)
+════════════════════════════════════════ */
+*, *::before, *::after {
+  box-sizing: border-box;   /* الحسابات تشمل الـ padding والـ border */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;  /* تمرير (scroll) سلس عند الضغط على روابط */
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;  /* خط أنعم على Mac */
+}
+
+/* ═══════════════════════════════════════
+   عندما تكون اللغة عربية
+   نغيّر الاتجاه (direction) لليمين
+════════════════════════════════════════ */
+[lang="ar"] {
+  direction: rtl;
+  font-family: var(--font-arabic);
+  line-height: 1.9;  /* العربي يحتاج مسافة أكبر بين الأسطر */
+}
+
+/* ═══════════════════════════════════════
+   مساعدات عامة (Utilities)
+   كلاسات صغيرة نستخدمها في كل مكان
+════════════════════════════════════════ */
+
+/* حاوية (Container) تمركز المحتوى */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* قسم (Section) — المسافات العمودية */
+.section {
+  padding: var(--section-py) 0;
+}
+
+/* عنوان القسم الصغير فوق الـ h2 */
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+}
+
+.section-label::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 2px;
+  background: var(--color-primary);
+  border-radius: 2px;
+}
