@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "links": ["Über uns", "Leistungen", "Kurse", "Bewertungen", "Kontakt"],
+    "cta": "Anmelden"
+  },
+
+  "hero": {
+    "tag":     "Willkommen bei Orange Fahrschule",
+    "h1":      "Mit Vertrauen Fahren Lernen",
+    "p":       "Moderne Fahrausbildung, professionelle Fahrlehrer und mehrsprachige Betreuung.",
+    "btn_primary":   "Jetzt Anmelden",
+    "btn_secondary": "Kurse entdecken"
+  },
+
+  "about": {
+    "label": "Über uns",
+    "h2":    "Ihre zuverlässige Fahrschule in der Stadt",
+    "p1":    "Orange Fahrschule steht für moderne, professionelle und mehrsprachige Fahrausbildung. Seit über 15 Jahren begleiten wir unsere Schülerinnen und Schüler auf dem Weg zum Führerschein.",
+    "p2":    "Unsere Fahrlehrer sprechen Deutsch, Englisch und Arabisch, sodass Sie sich in Ihrer Muttersprache wohlfühlen und effektiv lernen können.",
+    "badge": "Jahre Erfahrung"
+  },
+
+  "stats": [
+    { "value": "15+", "label": "Jahre Erfahrung"              },
+    { "value": "500+","label": "Erfolgreiche Schüler pro Jahr" },
+    { "value": "98%", "label": "Erfolgsquote"                 }
+  ],
+
+  "features": {
+    "label": "Unsere Leistungen",
+    "h2":    "Alles für Ihren erfolgreichen Führerschein",
+    "p":     "Von der Theorie bis zur Praxis – wir bieten eine umfassende Fahrausbildung.",
+    "items": [
+      {
+        "title": "Flexible Stundenplanung",
+        "body":  "Fahrstunden nach Ihrem Zeitplan – morgens, abends oder am Wochenende."
+      },
+      {
+        "title": "Intensivkurs",
+        "body":  "Führerschein in kürzester Zeit – unser Intensivkurs ist perfekt für alle, die schnell ihr Ziel erreichen möchten."
+      },
+      {
+        "title": "Mehrsprachiger Unterricht",
+        "body":  "Theoriestunden auf Deutsch, Englisch und Arabisch."
+      },
+      {
+        "title": "Erfahrene Fahrlehrer",
+        "body":  "Zertifizierte Fahrlehrer begleiten Sie mit Geduld und Fachkenntnis."
+      },
+      {
+        "title": "Moderne Fahrzeuge",
+        "body":  "Fahren lernen in aktuellen, top-gepflegten Fahrzeugen."
+      },
+      {
+        "title": "Prüfungsvorbereitung",
+        "body":  "Theorie- und Praxisprüfung auf sicher – mit umfassender Vorbereitung."
+      }
+    ]
+  },
+
+  "courses": {
+    "label": "Unsere Kurse",
+    "h2":    "Führerschein-Klassen & Kurse",
+    "items": [
+      {
+        "badge": "Beliebteste Wahl",
+        "title": "Klasse B – PKW-Führerschein",
+        "body":  "Der klassische Führerschein für Personenkraftwagen. Unser Programm führt Sie sicher durch Theorie und Praxis.",
+        "meta":  ["Ab 4–6 Monate", "14 Pflichtfahrten"],
+        "cta":   "Jetzt Buchen"
+      },
+      {
+        "badge": "Entspanntes Fahren",
+        "title": "Automatik-Führerschein",
+        "body":  "Idealer Einstieg ohne Kupplung – besonders geeignet für Fahrschüler, die entspannt lernen möchten.",
+        "meta":  ["Ab 3–5 Monate", "Modernes Fahrzeug"],
+        "cta":   "Jetzt Buchen"
+      },
+      {
+        "badge": "Schnell zum Ziel",
+        "title": "Intensivkurs",
+        "body":  "Für alle, die schnell ihren Führerschein benötigen. Komprimiertes Lernprogramm in wenigen Wochen.",
+        "meta":  ["2–4 Wochen", "Tägliche Fahrstunden"],
+        "cta":   "Jetzt Buchen"
+      },
+      {
+        "badge": "Prüfungsvorbereitung",
+        "title": "Theorieunterricht",
+        "body":  "Strukturierter Theorieunterricht in kleinen Gruppen auf Deutsch, Englisch oder Arabisch.",
+        "meta":  ["Flexibel wählbar", "3 Sprachen"],
+        "cta":   "Jetzt Buchen"
+      }
+    ]
+  },
+
+  "testimonials": {
+    "label": "Kundenstimmen",
+    "h2":    "Was unsere Schüler sagen",
+    "items": [
+      {
+        "text":   "Ich habe meinen Führerschein auf Anhieb bestanden! Das Team ist super professionell und die mehrsprachige Betreuung hat mir sehr geholfen.",
+        "name":   "Layla M.",
+        "meta":   "Klasse B · April 2024"
+      },
+      {
+        "text":   "Fantastic driving school! My instructor was patient and professional. I completed the intensive course in just 3 weeks.",
+        "name":   "Tom K.",
+        "meta":   "Intensivkurs · März 2024"
+      },
+      {
+        "text":   "Die flexiblen Zeiten haben mir als Berufstätiger sehr geholfen. Tolle Fahrlehrer!",
+        "name":   "Maria R.",
+        "meta":   "Automatik · Januar 2024"
+      }
+    ]
+  },
+
+  "contact": {
+    "label":    "Kontakt",
+    "h2":       "Bereit anzufangen?",
+    "intro":    "Füllen Sie das Formular aus oder rufen Sie uns an.",
+    "fields": {
+      "name":    "Vollständiger Name",
+      "phone":   "Telefonnummer",
+      "email":   "E-Mail-Adresse",
+      "course":  "Gewünschter Kurs",
+      "message": "Ihre Nachricht"
+    },
+    "btn": "Nachricht senden",
+    "info": {
+      "address": { "label": "Adresse",  "value": "Musterstraße 42, 10115 Berlin" },
+      "phone":   { "label": "Telefon",  "value": "+49 (0)30 123 456 78"          },
+      "email":   { "label": "E-Mail",   "value": "info@orange-fahrschule.de"     }
+    }
+  },
+
+  "footer": {
+    "tagline":   "Ihre zuverlässige Fahrschule – mit Herz und über 15 Jahren Erfahrung.",
+    "copyright": "© 2024 Orange Fahrschule. Alle Rechte vorbehalten.",
+    "cols": {
+      "nav":     { "title": "Navigation"  },
+      "courses": { "title": "Kurse"       },
+      "legal":   { "title": "Rechtliches",
+                   "links": ["Impressum", "Datenschutz", "AGB"] }
+    }
+  }
+}
